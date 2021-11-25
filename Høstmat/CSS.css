@@ -1,0 +1,110 @@
+#nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 80%;
+    margin: 20px auto;
+    height: 50px;
+    text-align: center;
+}
+#nav > div {
+    background-color: #BF935E;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#banner {
+    position: center;
+    background-image: url("Høstblader 2.jpg");
+    margin: auto;
+    width: auto;
+    border: 2px solid black;
+    height: 200px;
+
+}
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+    background-color: #593F1E;
+    border-radius: 10px;
+    width: 60%;
+}
+
+#lenker {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    width: 30%;
+    margin: 50px auto;
+    background-color: #593F1E;
+    border-radius: 10px;
+    border: 5px solid #0D0D0D;
+    color: white;
+}
+
+#info {
+    position: relative;
+    left: 225px;
+    bottom: 50px;
+    font-family: Arial, sans-serif;
+    color: black;
+    width: 60%;
+    margin: 125px auto;
+    background-color: white;
+}
+#info2 {
+    font-family: Arial, sans-serif;
+    color: black;
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    border: 5px solid #0D0D0D;
+    padding: 10px;
+}
+#kontaktinfo {
+    position: relative;
+    left: 225px;
+    bottom: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: 40px auto;
+    height: 50px;
+}
+
+
+
+a {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid #3f4259;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+thead > tr {
+    background-color: #A68932;
+    color: #f6f7fa;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #f6f7fa;
+}
+
+#bilde {
+    position: absolute;
+    width: 250px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    border: 5px solid #0D0D0D;
+    padding: 10px;
+    background: #593F1E;
+}
+ul {
+    list-style-type: none;
+}
